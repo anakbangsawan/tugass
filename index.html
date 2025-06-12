@@ -1,154 +1,79 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>GHANDY - Beranda</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-        }
-
-        header p {
-            margin-top: 5px;
-            font-size: 0.9em;
-        }
-
-        nav {
-            background-color: #444;
-            text-align: center;
-            padding: 0.5rem 0;
-        }
-
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            padding: 5px 0;
-            transition: color 0.3s ease;
-            font-weight: bold;
-        }
-
-        nav ul li a:hover {
-            color: #ff6347;
-        }
-
-        .hero {
-            background-color: #fff;
-            text-align: center;
-            padding: 50px 20px;
-            margin-bottom: 20px;
-        }
-
-        .hero h1 {
-            font-size: 2.5em;
-            color: #333;
-            margin-bottom: 15px;
-        }
-
-        .hero p {
-            font-size: 1.1em;
-            color: #555;
-            margin-bottom: 20px;
-        }
-
-        .hero a {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #ff6347;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .hero a:hover {
-            background-color: #e55338;
-        }
-
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-
-        .container h2 {
-            color: #333;
-            text-align: center;
-            margin-bottom: 15px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>KANTIN GHANDY</h1>
-        <p>Nikmati Kelezatan Makanan Kami!</p>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Beranda</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="about.html">about</a></li>
-            <li><a href="FOUNDER.html">Founder</a></li>
-            <li><a href="lokasi.html">lokasi</a></li>
-        </ul>
-    </nav>
-
-    <section class="hero">
-        <h1>Selamat Datang di Kantin Kami</h1>
-        <p>Temukan berbagai hidangan lezat yang siap memanjakan lidah Anda. Dari hidangan tradisional hingga modern, kami punya semuanya!</p>
-        <p><a href="menu.html">Lihat Menu Kami</a></p>
-    </section>
-
-    <div class="container">
-        <h2>Mengapa Memilih Kami?</h2>
-        <p>Kami berkomitmen untuk menyajikan makanan berkualitas tinggi dengan bahan-bahan segar pilihan. Setiap hidangan dibuat dengan cinta dan perhatian untuk memastikan kepuasan Anda.</p>
-        <p>Kami percaya bahwa makanan bukan hanya tentang rasa, tetapi juga pengalaman. Datang dan rasakan perbedaannya!</p>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Kantin Ghandy
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-50">
+  <header class="bg-gray-800 text-white">
+   <div class="max-w-5xl mx-auto px-4 py-3 text-center">
+    <h1 class="font-extrabold text-lg md:text-xl">
+     KANTIN GHANDY
+    </h1>
+    <p class="text-sm md:text-base mt-1">
+     Nikmati Kelezatan Makanan Kami!
+    </p>
+   </div>
+   <nav class="bg-gray-700">
+    <div class="max-w-5xl mx-auto px-4 py-1 flex justify-center space-x-4 text-xs md:text-sm font-semibold">
+     <a class="hover:underline" href="#">
+      Beranda
+     </a>
+     <a class="hover:underline" href="#">
+      Menu
+     </a>
+     <a class="hover:underline" href="#">
+      about
+     </a>
+     <a class="hover:underline" href="#">
+      Founder
+     </a>
+     <a class="hover:underline" href="#">
+      lokasi
+     </a>
     </div>
-
-    <footer>
-        <p>&copy; 2025 Anak Bangsawan. Semua Hak Dilindungi.</p>
-    </footer>
-</body>
+   </nav>
+  </header>
+  <main class="max-w-3xl mx-auto px-4 py-8">
+   <div class="relative text-center text-white">
+    <img alt="A delicious food background with various traditional and modern dishes" class="w-full h-48 md:h-64 object-cover rounded-md brightness-50" height="300" src="https://storage.googleapis.com/a1aa/image/a7f39c34-35f7-46d3-c0e5-d438da8be7c7.jpg" width="600"/>
+    <div class="absolute inset-0 flex flex-col justify-center items-center px-4">
+     <h2 class="font-extrabold text-lg md:text-xl mb-3">
+      Selamat Datang di Kantin Kami
+     </h2>
+     <p class="text-sm md:text-base max-w-xl leading-relaxed mb-5">
+      Temukan berbagai hidangan lezat yang siap memanjakan lidah Anda. Dari hidangan tradisional hingga modern, kami punya semuanya!
+     </p>
+     <button class="bg-red-500 text-white text-xs md:text-sm px-3 py-1 rounded">
+      Lihat Menu Kami
+     </button>
+    </div>
+   </div>
+   <section class="relative mt-8 p-5 text-left text-white text-xs md:text-sm rounded-md">
+    <img alt="Background image of fresh ingredients and delicious food dishes" class="absolute inset-0 w-full h-full object-cover rounded-md brightness-50" height="200" src="https://storage.googleapis.com/a1aa/image/0974d7d7-ec7c-469a-9072-c86e4a0d6b16.jpg" width="600"/>
+    <div class="relative z-10">
+     <p class="font-semibold mb-2">
+      Mengapa Memilih Kami?
+     </p>
+     <p class="mb-2">
+      Kami berkomitmen untuk menyajikan makanan berkualitas tinggi dengan bahan-bahan segar pilihan. Setiap hidangan dibuat dengan cinta dan perhatian untuk memastikan kepuasan Anda.
+     </p>
+     <p>
+      Kami percaya bahwa makanan bukan hanya tentang rasa, tetapi juga pengalaman. Datang dan rasakan perbedaannya!
+     </p>
+    </div>
+   </section>
+  </main>
+  <footer class="relative bg-gray-800 text-white text-center py-3 text-xs md:text-sm">
+   <img alt="Dark food-themed background behind footer text" class="absolute inset-0 w-full h-full object-cover brightness-50" height="50" src="https://storage.googleapis.com/a1aa/image/eafdceb5-609f-4e4c-a47a-95f9fcb2add9.jpg" width="600"/>
+   <div class="relative z-10">
+    © 2025 Anak Bangsawan. Semua Hak Dilindungi.
+   </div>
+  </footer>
+ </body>
 </html>
